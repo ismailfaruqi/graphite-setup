@@ -15,6 +15,7 @@ ENV CACHE_QUERY_PORT 7002
 
 ADD ./config /opt/graphite/conf/
 ADD run.sh /opt/graphite/
+ADD VERSION .
 
 EXPOSE 2003 2004 7002
 
